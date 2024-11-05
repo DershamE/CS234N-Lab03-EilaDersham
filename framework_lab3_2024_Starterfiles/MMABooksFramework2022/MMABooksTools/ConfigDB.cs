@@ -6,7 +6,7 @@ using Microsoft.Extensions.Configuration;
 
 namespace MMABooksTools
 {
-    class ConfigDB
+    public class ConfigDB
     {
         public static string GetMySqlConnectionString()
         {
